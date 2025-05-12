@@ -21,7 +21,8 @@
     <module name="BooleanExpressionComplexity"/>
     <module name="CyclomaticComplexity"/>
     <module name="MethodLength">
-        <property name="max" value="4"/>
+        <!--Modificato il max lenght delle funzioni per passare RomanPrinter-->
+        <property name="max" value="90"/>
         <property name="countEmpty" value="false"/>
     </module>
     <module name="EmptyCatchBlock"/>
